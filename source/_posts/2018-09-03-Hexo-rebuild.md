@@ -80,3 +80,95 @@ hexo clean
 hexo g
 hexo d
 ```
+
+## 添加页面
+---
+
+- 刚使用的主题是默认只有两个页面的，home和archive。要添加页面，需要在source中添加文件夹并创建index.md文件。
+
+- 例如，添加tags页面：
+
+1. 新建tags文件夹，并创建index.md
+2. 在index.md中写入如下内容：
+```
+---
+title: tags
+date: 2016-09-05 23:41:32
+type: "tags"
+comments: false
+---
+```
+3. 到_config.yml文件中将对应的路径添加进去(next主题默认是将这几个页面注释掉的，取消注释即可)
+4. 重新建站即可看到效果
+
+## 添加搜索引擎支持
+---
+
+- 首先登录google的[Search Console](https://www.google.com/webmasters/tools/home?hl=zh-CN)
+
+- 因为hexo每次clean都会将验证的html删除，所以我们采用其他的验证方法。将Search Console给的meta标签的信息添加到主题的目录下`head.swig`文件中，这里使用的是Next主题,其他主题也是类似的，在`Hexo/themes/next/layout/_partials/head/head.swig`文件中原有meta标签后面添加刚才复制的meta标签。
+
+- 百度验证与google验证方法一致
+
+- 重新deploy博客之后可以验证通过
+
+- 更详细的见[博客](https://jactor-sue.github.io/how-githubio-blog-can-be-searched-by-google/)
+
+- [百度搜索引擎](https://ziyuan.baidu.com/site/siteadd?siteurl=)
+
+### 安装插件
+
+- 为Hexo安装`hexo-generator-sitemap`和`hexo-generator-baidu-sitemap`插件，在Hexo博客目录下运行：
+```
+npm install hexo-generator-sitemap --save
+npm install hexo-generator-baidu-sitemap --save
+```
+
+### 重新建站
+
+- 配置Hexo的`_config.yml`文件，添加如下字段:
+```
+sitemap:
+    path: sitemap.xml
+baidusitemap:
+		path: baidusitemap.xml
+```
+
+- 在博客的`_config.yml`文件中添加博客的url,**否则生成的站点地图在提交的时候会报错**。
+
+- 例如我的：
+```
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: https://fleschier.github.io/
+root: /
+permalink: :year/:month/:day/:title/
+permalink_defaults:
+```
+
+- 重新生成博客页面即可看到sitemap.xml文件和baidusitemap.xml文件
+
+- 最后分别在google和百度搜索引擎界面提交各自的站点地图即可。
+
+### 添加robots文件
+
+- 可以在source文件夹下添加`robots.txt`文件来限制爬虫抓取网页的内容范围
+
+- robots例子：
+```
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/
+
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://Fleschier.github.io/sitemap.xml
+Sitemap: https://Fleschier.github.io/baidusitemap.xml
+```
