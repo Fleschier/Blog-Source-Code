@@ -14,6 +14,9 @@ tags:   [๑Hadoop, ๑Linux, ๑CLuster]
 
 - 使用`df -h`命令来查看存储情况
 
+- 空间几乎占满的状况：
+![](/images/Hadoop/cluster_storage.png)
+
 #### Linux下/proc目录简介
 
 - [linux下proc目录的作用](https://blog.csdn.net/zdwzzu2006/article/details/7747977)
