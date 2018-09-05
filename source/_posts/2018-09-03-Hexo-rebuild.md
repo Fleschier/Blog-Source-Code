@@ -108,13 +108,14 @@ comments: false
 
 - 因为hexo每次clean都会将验证的html删除，所以我们采用其他的验证方法。将Search Console给的meta标签的信息添加到主题的目录下`head.swig`文件中，这里使用的是Next主题,其他主题也是类似的，在`Hexo/themes/next/layout/_partials/head/head.swig`文件中原有meta标签后面添加刚才复制的meta标签。
 
+- [百度搜索引擎](https://ziyuan.baidu.com/site/siteadd?siteurl=)
+
 - 百度验证与google验证方法一致
 
 - 重新deploy博客之后可以验证通过
 
-- 更详细的见[博客](https://jactor-sue.github.io/how-githubio-blog-can-be-searched-by-google/)
+- 一些细节补充见[博客](https://jactor-sue.github.io/how-githubio-blog-can-be-searched-by-google/)
 
-- [百度搜索引擎](https://ziyuan.baidu.com/site/siteadd?siteurl=)
 
 ### 安装插件
 
