@@ -65,6 +65,27 @@ a.foreach{x =>      //与map遍历方式不同，foreach不会对里面的内容
 - 将ListBuffer转化为List:
 `val lst = buf.toList`
 
+## Scala类的实例
+---
+
+-
+```
+class Point(xc: Int, yc: Int) {
+   var x: Int = xc
+   var y: Int = yc
+   def move(dx: Int, dy: Int) {
+      x = x + dx
+      y = y + dy
+      println ("x 的坐标点: " + x);
+      println ("y 的坐标点: " + y);
+   }
+}
+```
+
+- Scala中的类不声明为public，一个Scala源文件中可以有多个类。以上实例的类定义了两个变量 x 和 y ，一个方法：move，方法没有返回值。Scala 的类定义可以有参数，称为类参数，如上面的 xc, yc，类参数在整个类中都可以访问。
+
+- 类的字段要初始化，不然会报错(错误：类必须申明为抽象类才行)
+
 
 <br>
 
