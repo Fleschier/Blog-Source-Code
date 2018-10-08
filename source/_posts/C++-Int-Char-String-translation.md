@@ -42,9 +42,11 @@ s.copy(p, 4, 0);  //4代表拷贝四个字符，0代表写入的位置
 
 - 对于已经存在的`char*`，可以直接赋值给string类型的数据
 
-### int转string
+### 数值类型转string
 
-- C++库有直接的转换函数`to_string(int)`
+- C++库有直接的转换函数`to_string()`
+
+- `to_string()`函数有多个重载函数，支持目前所有的数据类型转换为string类型。
 
 - 需要引入头文件`#include<string>`
 
