@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "C++学习笔记——数值类型,char和string的相互转化问题"
+title:      "C++学习笔记——强大的sprintf"
 date:       2018-10-08 22:43:00
 categories: Computer Programes
 tags: ๑C++
