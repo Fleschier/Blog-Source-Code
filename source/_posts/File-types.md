@@ -63,5 +63,19 @@ tags: ๑FileTypes
 
 - 之后直接运行即可
 
-<br>
-> 最后更新于2018.5.23
+## DLL文件
+---
+
+- DLL是`Dynamic Link Library`的缩写，意为动态链接库。
+
+>A DLL file, short for Dynamic Link Library, is a type of file that contains instructions that other programs can call upon to do certain things. This way, multiple programs can share the abilities programmed into a single file, and even do so simultaneously.
+
+>Unlike executable programs, like those with the EXE file extension, DLL files can't be run directly but instead must be called upon by other code that is already running. However, DLLs are in the same format as EXEs and some may even use the .EXE file extension. While most Dynamic Link Libraries end in the file extension .DLL, others may use .OCX, .CPL, or .DRV.
+
+- DLL文件存储了别的应用程序可以调用的做某项特定的事情的一系列操作，这样，多个程序就可以并发地执行一些操作，仅仅通过将这些操作写入一个文件。
+
+- 操作系统有时候会因为中了流氓软件或者病毒而导致杀毒软件删除被感染的捆绑时清除dll文件，但是不到万不得已不要去第三方网页上下载缺失的dll文件——[Important Reasons NOT to Download DLL Files](https://www.lifewire.com/important-reasons-not-to-download-dll-files-2624455)。这篇文章详细地描述了直接下载缺失的DLL文件的可能的潜在危害。
+
+- 如果电脑的DLL文件缺失导致某个软件不能运行之类的错误，尽量尝试重新安装这个软件而不是直接下载DLL文件来解决问题。
+
+- 参考文档——[What Is a DLL File](https://www.lifewire.com/what-is-a-dll-file-2625852)
