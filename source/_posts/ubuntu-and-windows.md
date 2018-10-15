@@ -56,6 +56,14 @@ tags: [๑DualSystem, ๑Ubuntu, ๑Linux]
 
 2. 找到`UTC=yes`，改为`UTC=no`即可
 
+- [详细原因](https://blog.csdn.net/gatieme/article/details/51883981)
+
+- **但是注意**：在 Ubuntu **16.04** 版本以前，关闭UTC的方法是编辑`/etc/default/rcS`，将`UTC=yes`改成`UTC=no`， 但在Ubuntu 16.04使用systemd启动之后，时间改成了由timedatectl来管理，所以更改方法是:
+```
+timedatectl set-local-rtc 1 --adjust-system-clock
+```
+- 之后重启应该就不会出现问题了。
+
 <br>
 
 > 最后更新于2018.10.15
