@@ -166,5 +166,11 @@ sudo rm -rf SogouPY* sogou*
 
 - **就目前个人测试的结果看来，登录个人中心是元凶，登录之后必炸...还是老老实实地用最基本的功能吧，期待早日更新吧。**
 
+## 10.15更新
+
+- [Ubuntu18.04详细配置、美化](https://zhuanlan.zhihu.com/p/41708902#2-%E7%BD%91%E6%98%93%E4%BA%91%E9%9F%B3%E4%B9%90)
+
+- [gnome主题网站](https://www.gnome-look.org/)
+
 <br>
 > 最后更新于2018.5.14
