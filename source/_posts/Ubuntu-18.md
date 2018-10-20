@@ -38,6 +38,27 @@ sudo apt-get install gnome-shell-extensions
 ```
 或者在gnome拓展网站上搜索 shell extensions ，找到这个插件并且安装最后重启tweak-tool即可。
 
+### Albert
+
+- 一款很强大的快捷交互命令行。
+
+- 勾选extention后可以执行强大的命令包括文件，程序，终端，计算器等等。
+
+- 安装步骤：
+1. ```
+wget -nv -O Release.key \
+  https://build.opensuse.org/projects/home:manuelschneid3r/public_key
+sudo apt-key add - < Release.key
+sudo apt-get update
+```
+2. ```
+sudo sh -c "echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /' > /etc/apt/sources.list.d/home:manuelschneid3r.list"
+sudo apt-get update
+sudo apt-get install albert
+```
+
+- [官网](https://albertlauncher.github.io/docs/installing/)
+
 ## 主题修改
 ---
 
