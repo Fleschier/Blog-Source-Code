@@ -58,6 +58,8 @@ update-alternatives: 使用 /usr/bin/python3.6 来在自动模式中提供 /usr/
 
 -  按照其官方的安装方法(*仍然需要管理员权限否则最后一步会失败提示权限不够*):`python -m pip install -U matplotlib`
 
+- 或者是一般的安装`pip3 install moduleName`
+
 ## 最后
 ---
 
