@@ -178,3 +178,22 @@ Sitemap: https://Fleschier.github.io/baidusitemap.xml
 ---
 
 - hexo文章的命名不需要日期。日期在文章的开头的date属性里写。
+
+> 11.4日更
+## hexo文章统计阅读量
+---
+
+- 使用leanCloud来完成访问统计
+
+- 需要设置安全链接,参考[博客](https://leaferx.online/2018/02/11/lc-security/)
+
+### 问题错误码429
+
+- 出现这个问题的报错信息是`too many requests`,原因是我们使用leanCloud的免费版本线程数是十分受限的,在我们deploy的时候发送了太多的同步请求导致线程栈溢出而报错.
+
+- 解决方案 ---[hexo-leancloud-counter-security 插件 Too many requests 错误](https://blog.csdn.net/weixin_42591190/article/details/80958675)
+
+### 问题依旧存在
+---
+
+- 使用leanCloud deploy之后博客修改的内容迟迟没有生效不知为何,用git的方法deploy之后就能很快生效,难道只能两个方法各deploy一次?待续...
