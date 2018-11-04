@@ -89,10 +89,11 @@ leancloud_counter_security:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   # only one deploy type shall be used!
-  # normal deployer git
+  # --------normal deployer git------------------------------------------------
   type: git
-  # an secure deloyer that related to the visitors counter
-  # type: leancloud_counter_security_sync
+  # --------an secure deloyer that related to the visitors counter-------------
+  #type: leancloud_counter_security_sync
+
   repository: git@github.com:Fleschier/Fleschier.github.io.git
   branch: master
 

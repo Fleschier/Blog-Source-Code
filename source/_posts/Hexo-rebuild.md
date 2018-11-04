@@ -174,6 +174,11 @@ Sitemap: https://Fleschier.github.io/sitemap.xml
 Sitemap: https://Fleschier.github.io/baidusitemap.xml
 ```
 
+## 文章中的图片
+---
+
+- 由于换到hexo,图片的文件夹在themes文件夹下的source文件夹中,我们在博客中写图片路径时还是`/images/...`这样即可.
+
 ## md文章命名
 ---
 
@@ -196,4 +201,18 @@ Sitemap: https://Fleschier.github.io/baidusitemap.xml
 ### 问题依旧存在
 ---
 
-- 使用leanCloud deploy之后博客修改的内容迟迟没有生效不知为何,用git的方法deploy之后就能很快生效,难道只能两个方法各deploy一次?待续...
+- *使用leanCloud deploy之后博客修改的内容迟迟没有生效不知为何,用git的方法deploy之后就能很快生效,难道只能两个方法各deploy一次?待续...*
+
+### 更新
+
+- 原来是我还缺少了一个步骤,就是需要在leanCloud的`云引擎>设置>deploy`中将自己的github仓库地址填入,并且将其deploy key添加到我们github的仓库deploy key 一栏中.如下
+
+- ![](/images/hexo_blog/blog_deploy.png)
+
+- ![](/images/hexo_blog/res.png)
+
+- 最后不要忘了在leanCloud上点保存,并且生成生产环境:
+
+- ![](/images/hexo_blog/res1.png)
+
+- 但是好像还是不能同步到github...待更新
