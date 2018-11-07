@@ -167,12 +167,10 @@ scp -P 4588 remote@www.runoob.com:/usr/local/sin.sh /home/administrator
 -t  ：查看 tarfile 里面的档案！
 -c  ：建立一个压缩档案的参数指令 
 -v  ：压缩的过程中显示档案！ 
--f  ：使用档名，请留意，在 f 之后要立即接档名喔！不要再加参数！
-　　　例如使用『 tar -zcvfP tfile sfile』就是错误的写法，要写成
-　　　『 tar -zcvPf tfile sfile』才对喔！
+-f  ：使用档名，请留意，在 f 之后要立即接档名,不要再加参数
 -p  ：使用原档案的原来属性（属性不会依据使用者而变） 
 -P  ：可以使用绝对路径 
--N  ：比后面接的日期(yyyy/mm/dd)还要新的才会被打包进新建的档案中！ 
+-N  ：比后面接的日期(yyyy/mm/dd)还要新的才会被打包进新建的档案中！
 --exclude FILE：在压缩的过程中，不要将 FILE 打包！ 
 ```
 ##### 例子
