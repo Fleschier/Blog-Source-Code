@@ -152,6 +152,51 @@ scp -P 4588 remote@www.runoob.com:/usr/local/sin.sh /home/administrator
 
 - [详细教程](https://www.jianshu.com/p/1c22dcb17a2e)
 
-<br>
+### 压缩命令
 
-> 最后更新于2018.7.20
+#### 使用tar指令
+
+- Tar压缩文件: `tar [-zxcvfpP] filename` 
+
+- `tar -N 'yyyy/mm/dd' /path -zcvf target.tar.gz source`
+
+- 参数说明：
+``` 
+-z  ：是否同时具有 gzip 的属性？ 
+-x  ：解开一个压缩档案的参数指令！ 
+-t  ：查看 tarfile 里面的档案！
+-c  ：建立一个压缩档案的参数指令 
+-v  ：压缩的过程中显示档案！ 
+-f  ：使用档名，请留意，在 f 之后要立即接档名喔！不要再加参数！
+　　　例如使用『 tar -zcvfP tfile sfile』就是错误的写法，要写成
+　　　『 tar -zcvPf tfile sfile』才对喔！
+-p  ：使用原档案的原来属性（属性不会依据使用者而变） 
+-P  ：可以使用绝对路径 
+-N  ：比后面接的日期(yyyy/mm/dd)还要新的才会被打包进新建的档案中！ 
+--exclude FILE：在压缩的过程中，不要将 FILE 打包！ 
+```
+##### 例子
+
+- `tar -cvf directory.tar directory`
+//只将目录整合打包成一个档案 
+
+- `tar -zcvf directory.tar.gz directory` 
+//除了将目录打包外，同时以 gzip 压缩 
+
+- `tar -zcvf filename.tar.gz  /home/test/*`
+//将`/home/test/` 这个目录下的档案全部打包并压缩成为一个 filename.tar.gz 的档案
+
+- `tar -jcvf /tmp/etc.tar.bz2 /etc` //打包后，以 bzip2 压缩
+
+- `tar -xvf  directory.tar` 
+//解 tar 的封包，请注意，由于没有 gzip (.tar 而非 .tar.gz) 的作用，所以只要使用`–xvf` 即可！不需要加上 z ，否则会显示有问题
+
+- `tar -zxvf directory.tar.gz` 
+//解压
+
+- `tar –ztvf directory.tar.gz`
+//查看 tar 里面的档案信息
+
+- `tar -zcvPf home.tar.gz /home`
+//则建立起来的压缩档内档案为绝对路径 
+//请注意，使用这个 P 的参数时，不要将 P 加在 f 后面，因为 f 之后要立即接档名才行喔！
