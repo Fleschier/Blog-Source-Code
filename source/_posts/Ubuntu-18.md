@@ -9,18 +9,6 @@ tags:  [๑Ubuntu, ๑Linux]
 ## Ubuntu18 使用体验
 ---
 
->“哎呦不错哦”
-“哇，这是什嘛？~”
-“哇，又搞什嘛?~”
-”卧槽这也不行“
-“哎呦这又是什嘛？～～”
-“哎呦又有bug～”
-“mmp输入法又炸了～～～”
-“哎呦狗屎啊～～～”
-"啊，坑爹啊～～～"
-“唉～～～”
-
-
 ## 一些装机软件的安装
 ---
 
@@ -66,7 +54,30 @@ sudo apt-get install albert
 
 - [一个mac风格的主题](https://imcn.me/html/y2017/29004.html)
 
--
+## gnome extensions recommend
+---
+
+### Ubuntu强大就强大在其可自定义的系统插件,这里罗列一下我自己使用的插件.
+
+- Desktop Scroller: 可以在左右上下(用户自定义)屏幕边滑动鼠标滚轮来实现工作区的切换,十分便捷
+
+- Drop Down Terminal: 从顶端展开的一个终端,可以跨工作区.
+
+- Keep awake!: 手动激活按钮使电脑不会进入待机状态
+
+- NetSpeed: 显示当前网速
+
+- Place Status Indicator: 可以快速获取当前位置和切换位置
+
+- Removable Drive Menu: 显示当前是否有挂载的设备,并且可以一键解除挂载
+
+- Screenshot Tool: 屏幕截图工具
+
+- User Themes: 可以自定义用户主题的拓展,必备.
+
+- Blyr：使Overview有模糊背景效果
+
+- Coverflow(Alt-Tab)：应用程序切换效果，类似Mac OS X
 
 ## 使用ppa源时可能遇到的问题以及解决方案
 ---
