@@ -92,7 +92,7 @@ deploy:
   # --------normal deployer git------------------------------------------------
   type: git
   # --------an secure deloyer that related to the visitors counter-------------
-  #type: leancloud_counter_security_sync
+  # type: leancloud_counter_security_sync
 
   repository: git@github.com:Fleschier/Fleschier.github.io.git
   branch: master
