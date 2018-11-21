@@ -2,7 +2,7 @@
 layout:     post
 title:      "Java学习笔记——类与继承"
 date:       2018-04-18 16:47:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑Java
 ---
 

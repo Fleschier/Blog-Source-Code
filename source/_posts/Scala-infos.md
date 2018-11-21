@@ -2,7 +2,7 @@
 layout:     post
 title:      "Scala方法查询记录"
 date:       2018-07-12 16:40:00
-categories: Computer Programes
+categories: Computer Programs
 tags:   ๑Scala
 ---
 

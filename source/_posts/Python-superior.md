@@ -2,7 +2,7 @@
 layout:     post
 title:      "Python学习笔记——进阶"
 date:       2018-04-29 16:47:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑Python
 ---
 

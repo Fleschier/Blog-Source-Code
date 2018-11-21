@@ -2,7 +2,7 @@
 layout:     post
 title:      "数据库SQL语句"
 date:       2018-04-7 20:55:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑SQL
 ---
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      "Scala学习笔记——进阶"
 date:       2018-04-6 16:47:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑Scala
 ---
 

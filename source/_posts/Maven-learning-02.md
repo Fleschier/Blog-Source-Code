@@ -2,7 +2,7 @@
 layout:     post
 title:      "Maven构建项目的pom.xml文件详解"
 date:       2018-11-07 20:50:00
-categories: Computer Programes
+categories: Computer Programs
 tags:   [๑Maven, ๑Apache]
 ---
 

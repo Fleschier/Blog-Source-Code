@@ -2,7 +2,7 @@
 layout:     post
 title:      "C++学习笔记——数值类型,char和string的相互转化问题"
 date:       2018-10-08 16:10:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑C++
 ---
 

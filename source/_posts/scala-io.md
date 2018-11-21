@@ -2,7 +2,7 @@
 layout:     post
 title:      "Scala IO 记录"
 date:       2018-09-06 11:25:00
-categories: Computer Programes
+categories: Computer Programs
 tags:   ๑Scala
 ---
 

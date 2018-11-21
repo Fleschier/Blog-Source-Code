@@ -2,7 +2,7 @@
 layout:     post
 title:      "Spark实际操作过程中的一些调优笔记"
 date:       2018-09-13 21:47:00
-categories: Computer Programes
+categories: Computer Programs
 tags: [๑Spark, ๑BigData]
 ---
 

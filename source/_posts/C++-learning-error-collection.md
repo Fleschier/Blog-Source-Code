@@ -2,7 +2,7 @@
 layout:     post
 title:      "C++学习笔记——一些报错信息归因"
 date:       2018-10-08 22:43:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑C++
 ---
 

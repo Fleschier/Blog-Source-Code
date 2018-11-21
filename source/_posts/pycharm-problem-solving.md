@@ -2,7 +2,7 @@
 layout:     post
 title:      "Ubuntu18 Pycharm无法识别安装的Python库的解决方案"
 date:       2018-10-16 00:47:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑Python
 ---
 

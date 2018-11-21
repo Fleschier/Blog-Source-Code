@@ -2,7 +2,7 @@
 layout:     post
 title:      "《Scala编程》阅读记录——列表进阶"
 date:       2018-07-24 11:25:00
-categories: Computer Programes
+categories: Computer Programs
 tags:   ๑Scala
 ---
 

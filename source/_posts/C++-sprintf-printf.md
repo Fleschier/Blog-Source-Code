@@ -2,7 +2,7 @@
 layout:     post
 title:      "C++学习笔记——强大的sprintf"
 date:       2018-10-08 22:43:00
-categories: Computer Programes
+categories: Computer Programs
 tags: ๑C++
 ---
 
