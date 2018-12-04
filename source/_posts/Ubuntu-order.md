@@ -197,4 +197,18 @@ scp -P 4588 remote@www.runoob.com:/usr/local/sin.sh /home/administrator
 
 - `tar -zcvPf home.tar.gz /home`
 //则建立起来的压缩档内档案为绝对路径 
-//请注意，使用这个 P 的参数时，不要将 P 加在 f 后面，因为 f 之后要立即接档名才行喔！
+//请注意，使用这个 P 的参数时，不要将 P 加在 f 后面，因为 f 之后要立即接档名才行！
+
+### HDFS相关命令
+
+- 基本所有与HDFS相关的命令都以`hdfs dfs`开头
+
+- `-mkdir /dirname` 创建hdfs目录
+
+- `-ls /dirname[/...]` 列出某个目录下的所有文件
+
+- `-rm -r /dirname` 删除某个目录及其所有子文件
+
+- `-get /hdfs路径  /本地路径` 从hdfs拿文件到本地(例如`hdfs dfs -get /data/test.txt /home/xxx/`)
+
+- `-put /本地文件路径 /hdfs路径`与拿文件相反,将本地一个文件传到hdfs上
