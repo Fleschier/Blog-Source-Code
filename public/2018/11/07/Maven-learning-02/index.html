@@ -34,6 +34,7 @@
 
 
 
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -66,10 +67,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=6.4.1">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.4.1" color="#222">
@@ -124,6 +125,8 @@
 <meta name="twitter:description" content="Maven仓库  Maven仓库分为本地仓库,中央仓库和远程仓库.  中央仓库可以查询和获取大量常用的库—-地址  远程仓库是当我们在中央仓库也获取不到需要的库时,才会用到的. 一般也不会用到远程仓库.   仓库搜索顺序 首先,maven会在本地仓库中搜索依赖的库,如果没有就去中央仓库,如果中央仓库也找不到,但是pom文件里设置了远程仓库,则去远程仓库中获取,否则就会报错,找不到依赖的文件.  M">
 
 
+
+  <link rel="alternate" href="/atom.xml" title="Fleschier 渐寒๑" type="application/atom+xml" />
 
 
 
@@ -499,9 +502,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/๑Maven/" rel="tag"># ๑Maven</a>
+            <a href="/tags/๑Maven/" rel="tag"><i class="fa fa-tag"></i> ๑Maven</a>
           
-            <a href="/tags/๑Apache/" rel="tag"># ๑Apache</a>
+            <a href="/tags/๑Apache/" rel="tag"><i class="fa fa-tag"></i> ๑Apache</a>
           
         </div>
       
@@ -612,7 +615,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">57</span>
+                    <span class="site-state-item-count">61</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -731,6 +734,13 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
             <div class="links-of-author motion-element">
@@ -797,7 +807,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -813,18 +823,17 @@
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a></div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Mist</a></div>
 
-
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">Total Words Of All Blogs: 96.2k words</span>
+</div>
 
         
 
@@ -847,7 +856,7 @@
     
 
     
-	
+
     
 
     
@@ -874,11 +883,16 @@
 
 
 
+  
 
 
 
 
 
+
+
+  
+  
 
 
 
@@ -899,6 +913,21 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
@@ -1068,6 +1097,10 @@
 
 
   
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 </body>
 </html>

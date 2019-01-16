@@ -52,7 +52,7 @@ highlight:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -90,9 +90,9 @@ leancloud_counter_security:
 deploy:
   # only one deploy type shall be used!
   # --------normal deployer git------------------------------------------------
-  #type: git
+  type: git
   # --------an secure deloyer that related to the visitors counter-------------
-  type: leancloud_counter_security_sync
+  #type: leancloud_counter_security_sync
 
   repository: git@github.com:Fleschier/Fleschier.github.io.git
   branch: master

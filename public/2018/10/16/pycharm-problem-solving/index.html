@@ -34,6 +34,7 @@
 
 
 
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -66,10 +67,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=6.4.1">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.4.1" color="#222">
@@ -124,6 +125,8 @@
 <meta name="twitter:description" content="凌晨更~  pycahrm无法识别  我们有时候在需要使用一些第三方python库的时候，需要pip install XXX，然而愉快地安装完了之后，在pycharm中新建项目import却失败，提示找不到。  这个问题坑了好久，在终端里使用完全没有问题然而pycahrm里却不行。今天终于下定决心搞定这个问题。   首先从默认python版本下手  由于我使用的是ubuntu18.04，其默认的">
 
 
+
+  <link rel="alternate" href="/atom.xml" title="Fleschier 渐寒๑" type="application/atom+xml" />
 
 
 
@@ -519,7 +522,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/๑Python/" rel="tag"># ๑Python</a>
+            <a href="/tags/๑Python/" rel="tag"><i class="fa fa-tag"></i> ๑Python</a>
           
         </div>
       
@@ -630,7 +633,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">57</span>
+                    <span class="site-state-item-count">61</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -749,6 +752,13 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
             <div class="links-of-author motion-element">
@@ -815,7 +825,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -831,18 +841,17 @@
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a></div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Mist</a></div>
 
-
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">Total Words Of All Blogs: 96.2k words</span>
+</div>
 
         
 
@@ -865,7 +874,7 @@
     
 
     
-	
+
     
 
     
@@ -892,11 +901,16 @@
 
 
 
+  
 
 
 
 
 
+
+
+  
+  
 
 
 
@@ -917,6 +931,21 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
@@ -1086,6 +1115,10 @@
 
 
   
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 </body>
 </html>

@@ -34,6 +34,7 @@
 
 
 
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -66,10 +67,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=6.4.1">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.4.1" color="#222">
@@ -124,6 +125,8 @@
 <meta name="twitter:description" content="“It’s just a begining.”  前言 渐寒 的 博客终于开通了。  几经辗转，在github上发现了自定义的博客这一功能，终于可以自己写一些东西了。然而对于我这样一个对前端没啥了解的人来说，只能借用别人造好的轮子来自定义博客的风格。这一点等以后啥时候有兴趣学前端了再自己DIY吧。    正文 第一次自己写博客还是很有新鲜感的。  搭建自己在github上的博客需要创建一个名为y">
 
 
+
+  <link rel="alternate" href="/atom.xml" title="Fleschier 渐寒๑" type="application/atom+xml" />
 
 
 
@@ -517,7 +520,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/๑Blog/" rel="tag"># ๑Blog</a>
+            <a href="/tags/๑Blog/" rel="tag"><i class="fa fa-tag"></i> ๑Blog</a>
           
         </div>
       
@@ -624,7 +627,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">57</span>
+                    <span class="site-state-item-count">61</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -743,6 +746,13 @@
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
             <div class="links-of-author motion-element">
@@ -809,7 +819,7 @@
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -825,18 +835,17 @@
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a></div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Mist</a></div>
 
-
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">Total Words Of All Blogs: 96.2k words</span>
+</div>
 
         
 
@@ -859,7 +868,7 @@
     
 
     
-	
+
     
 
     
@@ -886,11 +895,16 @@
 
 
 
+  
 
 
 
 
 
+
+
+  
+  
 
 
 
@@ -911,6 +925,21 @@
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
@@ -1080,6 +1109,10 @@
 
 
   
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 </body>
 </html>

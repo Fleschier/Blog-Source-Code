@@ -34,6 +34,7 @@
 
 
 
+
 <meta http-equiv="Cache-Control" content="no-transform" />
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 
@@ -66,10 +67,10 @@
   <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.ico?v=6.4.1">
 
 
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=6.4.1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.ico?v=6.4.1">
 
 
   <link rel="mask-icon" href="/images/logo.svg?v=6.4.1" color="#222">
@@ -122,6 +123,8 @@
 <meta name="twitter:description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
 
 
+
+  <link rel="alternate" href="/atom.xml" title="Fleschier 渐寒๑" type="application/atom+xml" />
 
 
 
@@ -308,7 +311,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/18/Java-class/">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/09/06/scala-io/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fleschier">
@@ -327,8 +330,8 @@
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/18/Java-class/" itemprop="url">
-                  Java学习笔记——类与继承
+                <a class="post-title-link" href="/2018/09/06/scala-io/" itemprop="url">
+                  Scala IO 记录
                 </a>
               
             
@@ -354,988 +357,7 @@
                 
               
 
-              <time title="Created: 2018-04-18 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-18T16:47:00+08:00">2018-04-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-21 14:40:17" itemprop="dateModified" datetime="2018-11-21T14:40:17+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/18/Java-class/" class="leancloud_visitors" data-flag-title="Java学习笔记——类与继承">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记
-
-Java的类，继承与接口
-类的定义
-类的修饰符有两种：public 和 缺省。public表示共有的访问级别，即任何类都可以访问它。缺省只允许同一个包中的类来访问它。
-
-类的类型修饰符：缺省、abstract及final三种。abstract表示这是一个抽象类，有些方法
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/18/Java-class/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/18/Java-function/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/18/Java-function/" itemprop="url">
-                  Java学习笔记——方法
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-18 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-18T16:47:00+08:00">2018-04-18</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-21 14:40:17" itemprop="dateModified" datetime="2018-11-21T14:40:17+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/18/Java-function/" class="leancloud_visitors" data-flag-title="Java学习笔记——方法">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记  
-
-函数
-
-Java中的函数没有默认参数，通过函数重载间接实现这个功能。
-
-java没有在类外面定义的函数，所以一般都是方法。
-
-
-工具类函数的使用
-如果要自己写一些可以复用的工具函数，可以新建一个class：
-123class myUtils&#123;  stati
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/18/Java-function/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/15/Block-Chain/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/15/Block-Chain/" itemprop="url">
-                  区块链初涉
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-15 17:01:00" itemprop="dateCreated datePublished" datetime="2018-04-15T17:01:00+08:00">2018-04-15</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-09-03 16:41:18" itemprop="dateModified" datetime="2018-09-03T16:41:18+08:00">2018-09-03</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer/" itemprop="url" rel="index"><span itemprop="name">Computer</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/15/Block-Chain/" class="leancloud_visitors" data-flag-title="区块链初涉">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记  
-
-简述
-
-区块链在当今可以说是非常的火了，但也有人批判区块链被炒得过于浮夸了。这里我们姑且不论，毕竟这只是一门技术，关键在于我们怎么利用它。
-
-区块链是一种特殊的 分布式数据库，任何人都可以架设服务器，加入区块链网络，成为一个节点。区块链的世界里面，没有中心节点，每个
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/15/Block-Chain/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/15/File-types/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/15/File-types/" itemprop="url">
-                  一些文件类型记录
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-15 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-15T16:47:00+08:00">2018-04-15</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-10-15 22:19:05" itemprop="dateModified" datetime="2018-10-15T22:19:05+08:00">2018-10-15</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer/" itemprop="url" rel="index"><span itemprop="name">Computer</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/15/File-types/" class="leancloud_visitors" data-flag-title="一些文件类型记录">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记  
-
-一些特殊的符号收集
-
-符号收集
-
-符号大全
-
-
-CSV文件（逗号分隔值文件格式）(XX.csv)
-
-.csv文件实际上就是一种文本文件，其以纯文本形式存储表格数据，一般以逗号或者制表符作为分隔符
-
-规则
-开头是不留空，以行为单位。（每行末尾只有换行符，没有别的分隔符
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/15/File-types/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/11/Git-and-Github/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/11/Git-and-Github/" itemprop="url">
-                  git 与 github 随笔
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-11 22:04:00" itemprop="dateCreated datePublished" datetime="2018-04-11T22:04:00+08:00">2018-04-11</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-09-03 21:18:31" itemprop="dateModified" datetime="2018-09-03T21:18:31+08:00">2018-09-03</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer/" itemprop="url" rel="index"><span itemprop="name">Computer</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/11/Git-and-Github/" class="leancloud_visitors" data-flag-title="git 与 github 随笔">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的随笔~
-
-本地初始化仓库并添加远程仓库
-
-示例：12345git init //初始化本地仓库git add .  //将本地所有文件加到仓库里git commit -m &quot;...&quot; //设置提交信息git remote add origin git@githu
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/11/Git-and-Github/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/11/Spark-superior/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/11/Spark-superior/" itemprop="url">
-                  Spark学习笔记——进阶
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-11 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-11T16:47:00+08:00">2018-04-11</time>
+              <time title="Created: 2018-09-06 11:25:00" itemprop="dateCreated datePublished" datetime="2018-09-06T11:25:00+08:00">2018-09-06</time>
             
 
             
@@ -1383,7 +405,7 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
 
           
           
-             <span id="/2018/04/11/Spark-superior/" class="leancloud_visitors" data-flag-title="Spark学习笔记——进阶">
+             <span id="/2018/09/06/scala-io/" class="leancloud_visitors" data-flag-title="Scala IO 记录">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1416,19 +438,20 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
       
         
           
-          
-不适合人类阅读的学习笔记
+          控制台IO
+调用java的IO库
+scala使用java的io类来读取
 
+需要引入java的io类：import java.io._
 
-有问题经常去stackoverflow.com上找找或者直接去看官方的API原版或者翻译版:官方文档的中文版
+使用Java的BufferedReader和InputStreamReader方法来实现
 
-DataSet 与 DataFrame
-
-Dataset是特定域对象中的强类型集合，它可以使用函数或者相关操作并行地进行转换等操作。每个Dataset都有一
+例：
+12val br = new BufferedReader(new
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/04/11/Spark-superior/#more" rel="contents">
+            <a class="btn" href="/2018/09/06/scala-io/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1484,7 +507,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/11/Spark-learning/">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/09/03/Hexo-rebuild/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fleschier">
@@ -1503,8 +526,8 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/11/Spark-learning/" itemprop="url">
-                  Spark学习笔记——基础
+                <a class="post-title-link" href="/2018/09/03/Hexo-rebuild/" itemprop="url">
+                  hexo重新构建博客
                 </a>
               
             
@@ -1530,7 +553,209 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
                 
               
 
-              <time title="Created: 2018-04-11 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-11T16:47:00+08:00">2018-04-11</time>
+              <time title="Created: 2018-09-03 17:25:00" itemprop="dateCreated datePublished" datetime="2018-09-03T17:25:00+08:00">2018-09-03</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-07 15:41:24" itemprop="dateModified" datetime="2018-11-07T15:41:24+08:00">2018-11-07</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Personal-Blog/" itemprop="url" rel="index"><span itemprop="name">Personal Blog</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/09/03/Hexo-rebuild/" class="leancloud_visitors" data-flag-title="hexo重新构建博客">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          环境搭建
+
+在使用hexo搭建博客之前，需要搭建好环境。需要git、node.js和hexo
+
+详细搭建见——链接
+
+
+hexo
+
+hexo有大量的主题可供选择，而且支持一键部署
+
+但是hexo每次预览要重新生成页面，而jekyll是即时体现更改
+
+
+安装
+npm install -g hexo-c
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/09/03/Hexo-rebuild/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/07/24/scala-learning-05/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fleschier">
+      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fleschier 渐寒๑">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/24/scala-learning-05/" itemprop="url">
+                  《Scala编程》阅读记录——集合类进阶
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-24 11:25:00" itemprop="dateCreated datePublished" datetime="2018-07-24T11:25:00+08:00">2018-07-24</time>
             
 
             
@@ -1578,7 +803,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
 
           
           
-             <span id="/2018/04/11/Spark-learning/" class="leancloud_visitors" data-flag-title="Spark学习笔记——基础">
+             <span id="/2018/07/24/scala-learning-05/" class="leancloud_visitors" data-flag-title="《Scala编程》阅读记录——集合类进阶">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1612,20 +837,18 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
         
           
           
-不适合人类阅读的学习笔记  
+不适合人类阅读的学习笔记
 
+第十七章 使用集合类
+序列列表
+List类是不可变 链表, 因此支持在头部快速添加和移除条目，但是不提供按下标快速访问的功能，因为实现这个功能需要线性地遍历列表。
 
-有问题经常去 stackoverflow.com 上找找
-
-环境搭建
-
-首先确保电脑安装了JAVA Development Kit JDK(使用java -version查看版本)
-
-安装hadoop（比如我在安装了hadoop-2.7.5），后面下载spark的
+列表缓冲(ListBuffer)
+List类提供对列表头部的快速访问，但是对尾部就不那么高效，因此在尾部
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/04/11/Spark-learning/#more" rel="contents">
+            <a class="btn" href="/2018/07/24/scala-learning-05/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1681,7 +904,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/07/SQL-quary/">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/07/24/scala-learning-04/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fleschier">
@@ -1700,8 +923,8 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/07/SQL-quary/" itemprop="url">
-                  数据库SQL语句
+                <a class="post-title-link" href="/2018/07/24/scala-learning-04/" itemprop="url">
+                  《Scala编程》阅读记录——列表进阶
                 </a>
               
             
@@ -1727,7 +950,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
                 
               
 
-              <time title="Created: 2018-04-07 20:55:00" itemprop="dateCreated datePublished" datetime="2018-04-07T20:55:00+08:00">2018-04-07</time>
+              <time title="Created: 2018-07-24 11:25:00" itemprop="dateCreated datePublished" datetime="2018-07-24T11:25:00+08:00">2018-07-24</time>
             
 
             
@@ -1775,7 +998,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
 
           
           
-             <span id="/2018/04/07/SQL-quary/" class="leancloud_visitors" data-flag-title="数据库SQL语句">
+             <span id="/2018/07/24/scala-learning-04/" class="leancloud_visitors" data-flag-title="《Scala编程》阅读记录——列表进阶">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1811,19 +1034,23 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
           
 不适合人类阅读的学习笔记
 
+第十六章 使用列表
 
-数据库的命令语句均不区分大小写
+列表的使用方法表格见另一篇博客
 
-创建语句
-基本创建
-创建数据库 ：create database XXX
+列表跟数组非常像，但是有两个重要的区别：
 
-带详细参数的数据库创建：
-123456create database School on(	name = &apos;School_data&apos;,	f
+
+
+列表是不可变的，也就是说列表的元素不能通过赋值改变
+列表是递归的(即链表)，而数组是平的
+
+
+init和last要消耗的时间与列表的长度成正比，而head和tail消
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/04/07/SQL-quary/#more" rel="contents">
+            <a class="btn" href="/2018/07/24/scala-learning-04/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1879,7 +1106,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/06/Ubuntu-order/">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/07/23/windows-realated/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="Fleschier">
@@ -1898,8 +1125,8 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
         
           <h2 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2018/04/06/Ubuntu-order/" itemprop="url">
-                  Ubuntu终端常用命令
+                <a class="post-title-link" href="/2018/07/23/windows-realated/" itemprop="url">
+                  Windows10使用过程中遇到的一些坑
                 </a>
               
             
@@ -1925,7 +1152,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
                 
               
 
-              <time title="Created: 2018-04-06 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-06T16:47:00+08:00">2018-04-06</time>
+              <time title="Created: 2018-07-23 20:40:00" itemprop="dateCreated datePublished" datetime="2018-07-23T20:40:00+08:00">2018-07-23</time>
             
 
             
@@ -1942,7 +1169,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-12-04 21:15:02" itemprop="dateModified" datetime="2018-12-04T21:15:02+08:00">2018-12-04</time>
+                <time title="Modified: 2018-09-07 16:19:05" itemprop="dateModified" datetime="2018-09-07T16:19:05+08:00">2018-09-07</time>
               
             
           </span>
@@ -1973,7 +1200,7 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
 
           
           
-             <span id="/2018/04/06/Ubuntu-order/" class="leancloud_visitors" data-flag-title="Ubuntu终端常用命令">
+             <span id="/2018/07/23/windows-realated/" class="leancloud_visitors" data-flag-title="Windows10使用过程中遇到的一些坑">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -2007,215 +1234,25 @@ Dataset是特定域对象中的强类型集合，它可以使用函数或者相�
         
           
           
-不适合人类阅读的备忘笔记  
+不适合人类阅读的学习笔记
 
-命令
-常用基本命令
-ls -l 的简略写法就是 ll，但是这个与ls -a又不同，后者用来显示隐藏文件和文件夹。
+解决windows下atom字体模糊的问题
 
-使用 vim修改文件时，如果想要不保存退出，使用:q!命令。
+这种情况是由windows下GPU的一些优化带来的问题，主要是会导致字体模糊。
 
-ubuntu改文件名用 mv name1 name2即可
+也有人说是由于抗锯齿导致的问题
 
-cp filename f
+更改方法如下：
+
+
+
+关闭windows自动更新
+
+首先ctrl+s呼出小娜，搜索service,出现服务这
           ...
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2018/04/06/Ubuntu-order/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/06/Scala-learning/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/06/Scala-learning/" itemprop="url">
-                  Scala学习笔记——基础
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-06 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-06T16:47:00+08:00">2018-04-06</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-21 14:40:40" itemprop="dateModified" datetime="2018-11-21T14:40:40+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/06/Scala-learning/" class="leancloud_visitors" data-flag-title="Scala学习笔记——基础">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记  
-
-编译环境
-
-scala在终端中就可以调用解释器，与python类似，可以逐语句执行。使用命令scala即可进入终端解释器，使用命令:q或者:quit退出解释器。
-
-编译首选jetbrain的intellij IDEA，下载一个Scala plugin，然后选择创建m
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/06/Scala-learning/#more" rel="contents">
+            <a class="btn" href="/2018/07/23/windows-realated/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -2260,7 +1297,7 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left" aria-label="Previous page"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/13/">13</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
   </nav>
 
 
@@ -2307,7 +1344,7 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">57</span>
+                    <span class="site-state-item-count">61</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -2426,6 +1463,13 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
           
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           
             <div class="links-of-author motion-element">
@@ -2476,7 +1520,7 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
 
     <footer id="footer" class="footer">
       <div class="footer-inner">
-        <div class="copyright">&copy; <span itemprop="copyrightYear">2018</span>
+        <div class="copyright">&copy; 2018 – <span itemprop="copyrightYear">2019</span>
   <span class="with-love" id="animate">
     <i class="fa fa-user"></i>
   </span>
@@ -2492,18 +1536,17 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
 
 
 
-  <div class="powered-by">Powered by <a class="theme-link" target="_blank" rel="external nofollow" href="https://hexo.io">Hexo</a></div>
 
 
 
-  <span class="post-meta-divider">|</span>
 
 
 
-  <div class="theme-info">Theme – <a class="theme-link" target="_blank" rel="external nofollow" href="https://theme-next.org">NexT.Mist</a></div>
 
-
-
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">Total Words Of All Blogs: 96.2k words</span>
+</div>
 
         
 
@@ -2526,7 +1569,7 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
     
 
     
-	
+
     
 
     
@@ -2553,11 +1596,16 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
 
 
 
+  
 
 
 
 
 
+
+
+  
+  
 
 
 
@@ -2578,6 +1626,21 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/canvas-nest/canvas-nest.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/three.min.js"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/three/canvas_sphere.min.js"></script>
   
 
 
@@ -2736,6 +1799,10 @@ scala在终端中就可以调用解释器，与python类似，可以逐语句执
 
 
   
+
+
+  <!-- 页面点击小红心 -->
+  <script type="text/javascript" src="/js/src/clicklove.js"></script>
 
 </body>
 </html>
