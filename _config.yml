@@ -82,7 +82,7 @@ leancloud_counter_security:
   enable_sync: true
   app_id:  FLdvdj7m3QeLled70QDUw983-gzGzoHsz #<<your app id>
   app_key: n50SuQJhlvn3zseLkBWf1Oq6  # <<your app key>
-  username: #<<your username>> #如留空则将在部署时询问
+  username: fleschier #<<your username>> #如留空则将在部署时询问
   password: #<<your password>> #建议留空以保证安全性，如留空则将在部署时询问
 
 # Deployment
@@ -90,9 +90,9 @@ leancloud_counter_security:
 deploy:
   # only one deploy type shall be used!
   # --------normal deployer git------------------------------------------------
-  type: git
+  # type: git
   # --------an secure deloyer that related to the visitors counter-------------
-  #type: leancloud_counter_security_sync
+  type: leancloud_counter_security_sync
 
   repository: git@github.com:Fleschier/Fleschier.github.io.git
   branch: master
@@ -104,3 +104,10 @@ sitemap:
 
 baidusitemap:
     path: baidusitemap.xml
+
+# local search
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000

@@ -217,12 +217,12 @@ document.formName.controlName
     <input type="submit" id="sender" name="sender" value="Search">
   </p>
 </form>
-```
+```CPU
 对于文本输入控件,以下引用实例都是有效的:
 ```
 document.getElementById("entry")
 document.searchForm.entry
-document.searchForm.elements[0]
+document.searchForm.elements[0]qitak
 document.forms["searchForm"].elements["entry"]
 document.forms["searchForm"].entry
 ```
