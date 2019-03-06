@@ -53,6 +53,10 @@
 
 
 
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
 
 
 
@@ -90,7 +94,7 @@
     scheme: 'Mist',
     version: '6.4.1',
     sidebar: {"position":"left","width":300,"display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
+    fancybox: true,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -340,6 +344,204 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/07/12/Scala-learning-01/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fleschier">
+      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fleschier 渐寒๑">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/07/12/Scala-learning-01/" itemprop="url">
+                  《Scala编程》阅读记录——入门部分
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-07-12 21:40:00" itemprop="dateCreated datePublished" datetime="2018-07-12T21:40:00+08:00">2018-07-12</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-21 14:40:40" itemprop="dateModified" datetime="2018-11-21T14:40:40+08:00">2018-11-21</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/07/12/Scala-learning-01/" class="leancloud_visitors" data-flag-title="《Scala编程》阅读记录——入门部分">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          
+不适合人类阅读的学习笔记
+
+入门
+
+scala是一门函数式编程语言,同时也是面向对象的
+
+函数值就是对象
+
+scala对面向对象的实现是纯的：每个值都是对象，每个操作都是方法调用
+
+例如，两个Int类型的相加（注意scala里所有的数据类型首字母都是大写，这说明了他们都是类），+实际上是调用了一个
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/07/12/Scala-learning-01/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/07/12/Scala-infos/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -487,7 +689,7 @@ List()或者Nil
 
 
 List(“Cool”,”Tools”)
-创建一个新的List[String]
+创建一个新的List[String],包含两个值:”Cool”,”Tools
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -675,7 +877,9 @@ List(“Cool”,”Tools”)
         
           
           环境安装
-确保下面环境的齐全：123456789brew install ruby//gem install jekyll//gem install bundler//gem install jekyll-paginate//gem install jekyl
+确保下面环境的齐全：123456789brew install ruby//gem install jekyll//gem install bundler//gem install jekyll-paginate//gem install jekyll-gist
+
+如果执行命令的过程中有提
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -873,7 +1077,7 @@ List(“Cool”,”Tools”)
 Js是放在head还是body解析
 
 嵌入html的javascript写法
-Jav
+JavaScript代码写在&lt;scrip
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1071,206 +1275,15 @@ CSS全称为“层叠样式表 (Cascading Style Sheets)”，它主要是用于�
 CSS3动画效果
 
 
-CSS代码语
+CSS代码语法
+基础
+注意各个语句之间以分号间隔
+
+
           ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/06/17/FrontEnd-CSS/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/06/17/FrontEnd-HTML/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/06/17/FrontEnd-HTML/" itemprop="url">
-                  前端学习——HTML
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-06-17 11:46:00" itemprop="dateCreated datePublished" datetime="2018-06-17T11:46:00+08:00">2018-06-17</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-09-03 21:14:06" itemprop="dateModified" datetime="2018-09-03T21:14:06+08:00">2018-09-03</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/FrontEnd/" itemprop="url" rel="index"><span itemprop="name">FrontEnd</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/06/17/FrontEnd-HTML/" class="leancloud_visitors" data-flag-title="前端学习——HTML">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的学习笔记
-
-HTML基础
-
-学习web前端开发基础技术需要掌握：HTML、CSS、JavaScript语言。(网页三件套大礼包～)
-
-概念解析
-HTML是网页内容的载体。内容就是网页制作者放在页面上想要让用户浏览的信息，可以包含文字、图片、视
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/06/17/FrontEnd-HTML/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1360,7 +1373,7 @@ HTML是网页内容的载体。内容就是网页制作者放在页面上想要�
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">62</span>
+                    <span class="site-state-item-count">63</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -1561,7 +1574,7 @@ HTML是网页内容的载体。内容就是网页制作者放在页面上想要�
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">Total Words Of All Blogs: 96.6k words</span>
+  <span class="post-count">Total Words Of All Blogs: 96.7k words</span>
 </div>
 
         
@@ -1610,6 +1623,8 @@ HTML是网页内容的载体。内容就是网页制作者放在页面上想要�
 
 
 
+  
+
 
 
 
@@ -1640,6 +1655,11 @@ HTML是网页内容的载体。内容就是网页制作者放在页面上想要�
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   

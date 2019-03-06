@@ -90,7 +90,7 @@ leancloud_counter_security:
 deploy:
   # only one deploy type shall be used!
   # --------normal deployer git------------------------------------------------
-  # type: git
+  #type: git
   # --------an secure deloyer that related to the visitors counter-------------
   type: leancloud_counter_security_sync
 

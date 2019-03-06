@@ -53,6 +53,10 @@
 
 
 
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
 
 
 
@@ -90,7 +94,7 @@
     scheme: 'Mist',
     version: '6.4.1',
     sidebar: {"position":"left","width":300,"display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
+    fancybox: true,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -340,6 +344,219 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/11/07/Maven-learning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fleschier">
+      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fleschier 渐寒๑">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/11/07/Maven-learning/" itemprop="url">
+                  Maven构建项目的pom.xml主要标签解释
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-11-07 20:46:00" itemprop="dateCreated datePublished" datetime="2018-11-07T20:46:00+08:00">2018-11-07</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-21 14:40:40" itemprop="dateModified" datetime="2018-11-21T14:40:40+08:00">2018-11-21</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/11/07/Maven-learning/" class="leancloud_visitors" data-flag-title="Maven构建项目的pom.xml主要标签解释">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          Maven pom.xml文件标签详解
+
+菜鸟教程-maven标签详解,为了方便记录到自己的博客下.
+
+记录
+
+
+
+标签
+描述
+
+
+
+
+project
+工程的根标签
+
+
+modelVersion
+模型版本,一般设为4.0
+
+
+groupId
+工程组的标志,一个项目或者一个组织一般是唯一的
+
+
+art
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/11/07/Maven-learning/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/10/27/gitignore-learning/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -471,7 +688,7 @@
 
 对于git同步到github来说，估计没有人会 git add 文件名这样的方式来添加到工作区的，都是git add .这样一次添加吧
 
-但是，有时候我们直接add所有的文件会将一些我们不需要的生成的临时文件也加入进去，导致文件冗余
+但是，有时候我们直接add所有的文件会将一些我们不需要的生成的临时文件也加入进去，导致文件冗余。同时，更有可能的是我们在push的时候
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -665,11 +882,202 @@ pycahrm无法识别
 
 我们有时候在需要使用一些第三方python库的时候，需要pip install XXX，然而愉快地安装完了之后，在pycharm中新建项目import却失败，提示找不到。
 
-这个问题坑了好久，在终端里使用完全没有问题然而
+这个问题坑了好久，在终端里使用完全没有问题然而pycahrm里却不行。今天终于下定决心
           ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/10/16/pycharm-problem-solving/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/10/08/C++-sprintf-printf/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fleschier">
+      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fleschier 渐寒๑">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/10/08/C++-sprintf-printf/" itemprop="url">
+                  C++学习笔记——强大的sprintf
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-10-08 22:43:00" itemprop="dateCreated datePublished" datetime="2018-10-08T22:43:00+08:00">2018-10-08</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-21 14:40:17" itemprop="dateModified" datetime="2018-11-21T14:40:17+08:00">2018-11-21</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/10/08/C++-sprintf-printf/" class="leancloud_visitors" data-flag-title="C++学习笔记——强大的sprintf">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          sprintf()函数与printf()函数
+
+sprintf()函数与printf()函数的用法几乎一样。只是前者是将内容打印到字符串中，后者直接在命令行打印出来。
+
+sprintf()函数原型： int sprintf( char *buffer, const char *format [, a
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/10/08/C++-sprintf-printf/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -861,396 +1269,11 @@ pycahrm无法识别
 在最后fclose的时候，先判断一下文件指针是否为空。
 
 
+abort() has been ca
           ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/10/08/C++-learning-error-collection/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/10/08/C++-sprintf-printf/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/10/08/C++-sprintf-printf/" itemprop="url">
-                  C++学习笔记——强大的sprintf
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-10-08 22:43:00" itemprop="dateCreated datePublished" datetime="2018-10-08T22:43:00+08:00">2018-10-08</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-21 14:40:17" itemprop="dateModified" datetime="2018-11-21T14:40:17+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/10/08/C++-sprintf-printf/" class="leancloud_visitors" data-flag-title="C++学习笔记——强大的sprintf">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          sprintf()函数与printf()函数
-
-sprintf()函数与printf()函数的用法几乎一样。只是前者是将内容打印到字符串中，后者直接在命令行打印出来。
-
-sprintf()函数原型： int sprintf( char *buffer, con
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/10/08/C++-sprintf-printf/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/10/08/C++-Int-Char-String-translation/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/10/08/C++-Int-Char-String-translation/" itemprop="url">
-                  C++学习笔记——数值类型,char和string的相互转化问题
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-10-08 16:10:00" itemprop="dateCreated datePublished" datetime="2018-10-08T16:10:00+08:00">2018-10-08</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-11-21 14:40:17" itemprop="dateModified" datetime="2018-11-21T14:40:17+08:00">2018-11-21</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/10/08/C++-Int-Char-String-translation/" class="leancloud_visitors" data-flag-title="C++学习笔记——数值类型,char和string的相互转化问题">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          C++提供了一些功能强大的函数来高效地完成这些转化
-string转char
-使用c_str()方法
-
-
-示例：
-123string s = &quot;abcd&quot;;char p[10];p = (char*)s.c_str();
-
-上面的强制类型转换
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/10/08/C++-Int-Char-String-translation/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1340,7 +1363,7 @@ string转char
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">62</span>
+                    <span class="site-state-item-count">63</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -1541,7 +1564,7 @@ string转char
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">Total Words Of All Blogs: 96.6k words</span>
+  <span class="post-count">Total Words Of All Blogs: 96.7k words</span>
 </div>
 
         
@@ -1590,6 +1613,8 @@ string转char
 
 
 
+  
+
 
 
 
@@ -1620,6 +1645,11 @@ string转char
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   

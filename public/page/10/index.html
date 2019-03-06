@@ -53,6 +53,10 @@
 
 
 
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css">
+
 
 
 
@@ -90,7 +94,7 @@
     scheme: 'Mist',
     version: '6.4.1',
     sidebar: {"position":"left","width":300,"display":"always","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
-    fancybox: false,
+    fancybox: true,
     fastclick: false,
     lazyload: false,
     tabs: true,
@@ -340,6 +344,206 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/29/Python-superior/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Fleschier">
+      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Fleschier 渐寒๑">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h2 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2018/04/29/Python-superior/" itemprop="url">
+                  Python学习笔记——进阶
+                </a>
+              
+            
+          </h2>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Posted on</span>
+              
+
+              
+                
+              
+
+              <time title="Created: 2018-04-29 16:47:00" itemprop="dateCreated datePublished" datetime="2018-04-29T16:47:00+08:00">2018-04-29</time>
+            
+
+            
+              
+
+              
+                
+                <span class="post-meta-divider">|</span>
+                
+
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">Edited on</span>
+                
+                <time title="Modified: 2018-11-21 14:40:40" itemprop="dateModified" datetime="2018-11-21T14:40:40+08:00">2018-11-21</time>
+              
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">In</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer-Programs/" itemprop="url" rel="index"><span itemprop="name">Computer Programs</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+             <span id="/2018/04/29/Python-superior/" class="leancloud_visitors" data-flag-title="Python学习笔记——进阶">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">Views: </span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+          
+不适合人类阅读的学习笔记  
+
+格式化输出方法
+
+格式：格式字符串.format(输出1, 输出2, ...输出n)
+
+格式说明符使用大括号括起来，一般格式如下：{[序号或键]:格式说明符}
+
+其中可选序号对应于后面的输出项，从0开始
+
+
+例如：
+12&gt;&gt;&gt; &quot;&#12
+          ...
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/04/29/Python-superior/#more" rel="contents">
+              Read more &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/18/Java-function/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -479,7 +683,7 @@ java没有在类外面定义的函数，所以一般都是方法。
 
 工具类函数的使用
 如果要自己写一些可以复用的工具函数，可以新建一个class：
-123class 
+123class myUtils&#123;  stati
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -673,7 +877,7 @@ Java的类，继承与接口
 类的定义
 类的修饰符有两种：public 和 缺省。public表示共有的访问级别，即任何类都可以访问它。缺省只允许同一个包中的类来访问它。
 
-类的类型修饰符：缺省、abstract及final三种。ab
+类的类型修饰符：缺省、abstract及final三种。abstract表示这是一个抽象类，有些方法
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -867,7 +1071,7 @@ Java的类，继承与接口
 
 区块链在当今可以说是非常的火了，但也有人批判区块链被炒得过于浮夸了。这里我们姑且不论，毕竟这只是一门技术，关键在于我们怎么利用它。
 
-区块链是一种特殊的 分布式数据库，任何人都可以架设服务器，加入区块链网络，成为一个节
+区块链是一种特殊的 分布式数据库，任何人都可以架设服务器，加入区块链网络，成为一个节点。区块链的世界里面，没有中心节点，每个
           ...
           <!--noindex-->
           <div class="post-button text-center">
@@ -1069,203 +1273,11 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
 .csv文件实际上就是一种文本文件，其以纯文本形式存储表格数据，一般以逗号或者制表符作为分隔符
 
 规则
-开头是不留空，以行为单
+开头是不留空，以行为单位。（每行末尾只有换行符，没有别的分隔符
           ...
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2018/04/15/File-types/#more" rel="contents">
-              Read more &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-
-    
-
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="https://fleschier.github.io/2018/04/11/Git-and-Github/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Fleschier">
-      <meta itemprop="description" content="每天早上醒来，你和阳光都在，就是我想要的未来。">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Fleschier 渐寒๑">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h2 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2018/04/11/Git-and-Github/" itemprop="url">
-                  git 与 github 随笔
-                </a>
-              
-            
-          </h2>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-
-            
-            
-            
-
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">Posted on</span>
-              
-
-              
-                
-              
-
-              <time title="Created: 2018-04-11 22:04:00" itemprop="dateCreated datePublished" datetime="2018-04-11T22:04:00+08:00">2018-04-11</time>
-            
-
-            
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">Edited on</span>
-                
-                <time title="Modified: 2018-09-03 21:18:31" itemprop="dateModified" datetime="2018-09-03T21:18:31+08:00">2018-09-03</time>
-              
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">In</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Computer/" itemprop="url" rel="index"><span itemprop="name">Computer</span></a></span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-          
-             <span id="/2018/04/11/Git-and-Github/" class="leancloud_visitors" data-flag-title="git 与 github 随笔">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">Views: </span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-          
-不适合人类阅读的随笔~
-
-本地初始化仓库并添加远程仓库
-
-示例：12345git init //初始化本地仓库git add .  //将本地所有文件加到仓库里git commit -m &quot;...&quot; //设置提交信息git remote 
-          ...
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2018/04/11/Git-and-Github/#more" rel="contents">
               Read more &raquo;
             </a>
           </div>
@@ -1355,7 +1367,7 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">62</span>
+                    <span class="site-state-item-count">63</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -1556,7 +1568,7 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">Total Words Of All Blogs: 96.6k words</span>
+  <span class="post-count">Total Words Of All Blogs: 96.7k words</span>
 </div>
 
         
@@ -1605,6 +1617,8 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
 
 
 
+  
+
 
 
 
@@ -1635,6 +1649,11 @@ CSV文件（逗号分隔值文件格式）(XX.csv)
   
   
     <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
   
 
   
