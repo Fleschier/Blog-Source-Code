@@ -127,7 +127,7 @@ sudo apt-get install albert
 
 - 配置方法与windows几乎一致
 
-## 关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）
+## 关于网易云音乐安装之后必须要终端sudo才能打开的问题
 ---
 
 - 首先sudo打开会有报错,但是会自动启动默认设置
@@ -137,6 +137,22 @@ sudo apt-get install albert
 - 然后修改网易云音乐的desktop文件，在exec那一行 `%U` 之前 加上 `--no-sandbox`然后保存退出，重启电脑即可愉快的使用了～～(注意修改文件之前先要切换到root用户)
 
 - 另一种神奇的打开方式(不需要上面的操作):启动之后，点关机按钮，弹出来确认框，随后网易乐音乐页面也弹出来了，这时取消关机，可以正常使用云音乐~~~~~~~
+
+-------
+
+### 2019.3.21更新
+
+- 最近又发现了一个 **完全解决问题** 的方法:
+
+- 把`%U`那一行改为:`Exec=sh -c "unset SESSION_MANAGER && netease-cloud-music %U"`
+
+#### 然后关于每次正常启动要重新登录的问题
+
+- 把`.cache`文件夹下的`netease-cloud-music`全部删掉(这是缓存文件夹).然后查看`.config`文件夹下的`netease-cloud-music`的所有权是否是自己的当前用户.如果是root的话要改.
+
+- 参考 -- [https://www.zhihu.com/question/277330447/answer/478510195](https://www.zhihu.com/question/277330447/answer/478510195)
+
+- 然后终于可以美滋滋地使用了~
 
 ## 关于ibus输入法的问题
 ---

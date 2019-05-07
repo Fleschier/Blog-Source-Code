@@ -40,11 +40,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: false
-  tab_replace:
+
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -85,14 +81,21 @@ leancloud_counter_security:
   username: fleschier #<<your username>> #如留空则将在部署时询问
   password: #<<your password>> #建议留空以保证安全性，如留空则将在部署时询问
 
+# code highlight, accompany with line 362 in NexT config
+highlight:
+  enable: false
+  line_number: true
+  auto_detect: true
+  tab_replace: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   # only one deploy type shall be used!
   # --------normal deployer git------------------------------------------------
-  #type: git
+  type: git
   # --------an secure deloyer that related to the visitors counter-------------
-  type: leancloud_counter_security_sync
+  # type: leancloud_counter_security_sync
 
   repository: git@github.com:Fleschier/Fleschier.github.io.git
   branch: master

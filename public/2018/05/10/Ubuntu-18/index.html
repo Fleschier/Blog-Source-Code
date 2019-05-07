@@ -115,6 +115,8 @@
 
 
 
+<link href="/js/google-code-prettify/tomorrow.min.css" type="text/css" rel="stylesheet">
+
   <meta name="description" content="Ubuntu18 使用体验 一些装机软件的安装  由于Ubuntu 18 自带了 gnome3.0桌面,所以我们只需要下载一个tweak-tool据可以自定义桌面了： 12sudo apt-get updatesudo apt-get install gnome-tweak-tool  这次Ubuntu把标题栏改到了窗口的右侧，如果要改到左侧的话，打开tweak-tool转到窗口里面更改即可。">
 <meta name="keywords" content="๑Ubuntu,๑Linux">
 <meta property="og:type" content="article">
@@ -123,7 +125,7 @@
 <meta property="og:site_name" content="Fleschier 渐寒๑">
 <meta property="og:description" content="Ubuntu18 使用体验 一些装机软件的安装  由于Ubuntu 18 自带了 gnome3.0桌面,所以我们只需要下载一个tweak-tool据可以自定义桌面了： 12sudo apt-get updatesudo apt-get install gnome-tweak-tool  这次Ubuntu把标题栏改到了窗口的右侧，如果要改到左侧的话，打开tweak-tool转到窗口里面更改即可。">
 <meta property="og:locale" content="default">
-<meta property="og:updated_time" content="2018-11-08T08:28:14.656Z">
+<meta property="og:updated_time" content="2019-03-21T14:52:56.721Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Ubuntu进阶记录 &amp; Ubuntu-18">
 <meta name="twitter:description" content="Ubuntu18 使用体验 一些装机软件的安装  由于Ubuntu 18 自带了 gnome3.0桌面,所以我们只需要下载一个tweak-tool据可以自定义桌面了： 12sudo apt-get updatesudo apt-get install gnome-tweak-tool  这次Ubuntu把标题栏改到了窗口的右侧，如果要改到左侧的话，打开tweak-tool转到窗口里面更改即可。">
@@ -182,6 +184,16 @@
 </noscript>
 
 </head>
+
+<!-- add by Fleshier -->
+<script type="text/javascript" src="/js/google-code-prettify/prettify.js"></script>
+<script type="text/javascript">
+$(window).load(function(){
+   $('pre').addClass('prettyprint linenums').attr('style', 'overflow:auto;');
+   prettyPrint();
+ })
+</script>
+<!-- add end -->
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="default">
 
@@ -404,7 +416,7 @@
                 
                   <span class="post-meta-item-text">Edited on</span>
                 
-                <time title="Modified: 2018-11-08 16:28:14" itemprop="dateModified" datetime="2018-11-08T16:28:14+08:00">2018-11-08</time>
+                <time title="Modified: 2019-03-21 22:52:56" itemprop="dateModified" datetime="2019-03-21T22:52:56+08:00">2019-03-21</time>
               
             
           </span>
@@ -470,12 +482,12 @@
 <h2 id="一些装机软件的安装"><a href="#一些装机软件的安装" class="headerlink" title="一些装机软件的安装"></a>一些装机软件的安装</h2><hr>
 <ul>
 <li><p>由于Ubuntu 18 自带了 gnome3.0桌面,所以我们只需要下载一个tweak-tool据可以自定义桌面了：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install gnome-tweak-tool</span><br></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install gnome-tweak-tool</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>这次Ubuntu把标题栏改到了窗口的右侧，如果要改到左侧的话，打开tweak-tool转到窗口里面更改即可。</p>
 </li>
 <li><p>在更改用户主题之前，我们需要添加一个拓展插件才能使用自定义的主题</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install gnome-shell-extensions</span><br></pre></td></tr></table></figure>
+<figure class="highlight dockerfile"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install gnome-<span class="keyword">shell</span><span class="bash">-extensions</span></span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>或者在gnome拓展网站上搜索 shell extensions ，找到这个插件并且安装最后重启tweak-tool即可。</p>
@@ -488,9 +500,9 @@
 </li>
 </ul>
 <ol>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wget -nv -O Release.key \</span><br><span class="line">  https://build.opensuse.org/projects/home:manuelschneid3r/public_key</span><br><span class="line">sudo apt-key add - &lt; Release.key</span><br><span class="line">sudo apt-get update</span><br></pre></td></tr></table></figure>
+<li><figure class="highlight processing"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">wget -nv -O Release.<span class="built_in">key</span> \</span><br><span class="line">  https:<span class="comment">//build.opensuse.org/projects/home:manuelschneid3r/public_key</span></span><br><span class="line">sudo apt-<span class="built_in">key</span> <span class="built_in">add</span> - &lt; Release.<span class="built_in">key</span></span><br><span class="line">sudo apt-<span class="built_in">get</span> update</span><br></pre></td></tr></table></figure>
 </li>
-<li><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c &quot;echo &apos;deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /&apos; &gt; /etc/apt/sources.list.d/home:manuelschneid3r.list&quot;</span><br><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get install albert</span><br></pre></td></tr></table></figure>
+<li><figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">sudo sh -c <span class="string">"echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_18.04/ /' &gt; /etc/apt/sources.list.d/home:manuelschneid3r.list"</span></span><br><span class="line">sudo apt-<span class="builtin-name">get</span> update</span><br><span class="line">sudo apt-<span class="builtin-name">get</span> install albert</span><br></pre></td></tr></table></figure>
 </li>
 </ol>
 <ul>
@@ -569,7 +581,7 @@
 <li><p>配置方法与windows几乎一致</p>
 </li>
 </ul>
-<h2 id="关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）"><a href="#关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）" class="headerlink" title="关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）"></a>关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）</h2><hr>
+<h2 id="关于网易云音乐安装之后必须要终端sudo才能打开的问题"><a href="#关于网易云音乐安装之后必须要终端sudo才能打开的问题" class="headerlink" title="关于网易云音乐安装之后必须要终端sudo才能打开的问题"></a>关于网易云音乐安装之后必须要终端sudo才能打开的问题</h2><hr>
 <ul>
 <li><p>首先sudo打开会有报错,但是会自动启动默认设置</p>
 </li>
@@ -578,6 +590,21 @@
 <li><p>然后修改网易云音乐的desktop文件，在exec那一行 <code>%U</code> 之前 加上 <code>--no-sandbox</code>然后保存退出，重启电脑即可愉快的使用了～～(注意修改文件之前先要切换到root用户)</p>
 </li>
 <li><p>另一种神奇的打开方式(不需要上面的操作):启动之后，点关机按钮，弹出来确认框，随后网易乐音乐页面也弹出来了，这时取消关机，可以正常使用云音乐<del>~</del>~~</p>
+</li>
+</ul>
+<hr>
+<h3 id="2019-3-21更新"><a href="#2019-3-21更新" class="headerlink" title="2019.3.21更新"></a>2019.3.21更新</h3><ul>
+<li><p>最近又发现了一个 <strong>完全解决问题</strong> 的方法:</p>
+</li>
+<li><p>把<code>%U</code>那一行改为:<code>Exec=sh -c &quot;unset SESSION_MANAGER &amp;&amp; netease-cloud-music %U&quot;</code></p>
+</li>
+</ul>
+<h4 id="然后关于每次正常启动要重新登录的问题"><a href="#然后关于每次正常启动要重新登录的问题" class="headerlink" title="然后关于每次正常启动要重新登录的问题"></a>然后关于每次正常启动要重新登录的问题</h4><ul>
+<li><p>把<code>.cache</code>文件夹下的<code>netease-cloud-music</code>全部删掉(这是缓存文件夹).然后查看<code>.config</code>文件夹下的<code>netease-cloud-music</code>的所有权是否是自己的当前用户.如果是root的话要改.</p>
+</li>
+<li><p>参考 – <a href="https://www.zhihu.com/question/277330447/answer/478510195" target="_blank" rel="noopener">https://www.zhihu.com/question/277330447/answer/478510195</a></p>
+</li>
+<li><p>然后终于可以美滋滋地使用了~</p>
 </li>
 </ul>
 <h2 id="关于ibus输入法的问题"><a href="#关于ibus输入法的问题" class="headerlink" title="关于ibus输入法的问题"></a>关于ibus输入法的问题</h2><hr>
@@ -595,10 +622,10 @@
 </ul>
 <h3 id="Ubuntu18-的搜狗输入法的安装"><a href="#Ubuntu18-的搜狗输入法的安装" class="headerlink" title="Ubuntu18 的搜狗输入法的安装"></a>Ubuntu18 的搜狗输入法的安装</h3><ul>
 <li><p>首先安装fcitx的相关依赖</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get install fictx-bin</span><br><span class="line">sudo apt-get install fictx-table</span><br></pre></td></tr></table></figure>
+<figure class="highlight sql"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get <span class="keyword">install</span> fictx-<span class="keyword">bin</span></span><br><span class="line">sudo apt-<span class="keyword">get</span> <span class="keyword">install</span> fictx-<span class="keyword">table</span></span><br></pre></td></tr></table></figure>
 </li>
 <li><p>然后安装下载好的搜狗输入法deb包<br><code>dpkg -i sougou...</code><br>这里应该会提示缺少依赖，这时候可就需要执行修复依赖：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-get update</span><br><span class="line">sudo apt-get upgrade -f</span><br></pre></td></tr></table></figure>
+<figure class="highlight routeros"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">sudo apt-<span class="builtin-name">get</span> update</span><br><span class="line">sudo apt-<span class="builtin-name">get</span><span class="built_in"> upgrade </span>-f</span><br></pre></td></tr></table></figure>
 </li>
 </ul>
 <p>系统会自动修复缺少的依赖包</p>
@@ -624,7 +651,7 @@
 <li><p>所以接下来这个方法貌似有用(亲测)</p>
 </li>
 <li><p>输入如下命令：(就是把你个人用户的一些配置删除掉然后重新创建)</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~/.config</span><br><span class="line">sudo rm -rf SogouPY* sogou*</span><br></pre></td></tr></table></figure>
+<figure class="highlight jboss-cli"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">cd</span> ~<span class="string">/.config</span></span><br><span class="line">sudo rm -rf SogouPY* sogou*</span><br></pre></td></tr></table></figure>
 </li>
 <li><p>之后注销重新登录即可。</p>
 </li>
@@ -786,7 +813,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">63</span>
+                    <span class="site-state-item-count">67</span>
                     <span class="site-state-item-name">posts</span>
                   </a>
                 </div>
@@ -819,7 +846,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">10</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">12</span>
                     <span class="site-state-item-name">categories</span>
                   </a>
                 </div>
@@ -896,7 +927,15 @@
                     
                       
                     
-                    <span class="site-state-item-count">32</span>
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">36</span>
                     <span class="site-state-item-name">tags</span>
                   </a>
                 </div>
@@ -958,7 +997,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu18-使用体验"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu18 使用体验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些装机软件的安装"><span class="nav-number">2.</span> <span class="nav-text">一些装机软件的安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Albert"><span class="nav-number">2.1.</span> <span class="nav-text">Albert</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题修改"><span class="nav-number">3.</span> <span class="nav-text">主题修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#gnome-extensions-recommend"><span class="nav-number">4.</span> <span class="nav-text">gnome extensions recommend</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Ubuntu强大就强大在其可自定义的系统插件-这里罗列一下我自己使用的插件"><span class="nav-number">4.1.</span> <span class="nav-text">Ubuntu强大就强大在其可自定义的系统插件,这里罗列一下我自己使用的插件.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用ppa源时可能遇到的问题以及解决方案"><span class="nav-number">5.</span> <span class="nav-text">使用ppa源时可能遇到的问题以及解决方案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu18装机的坑"><span class="nav-number">6.</span> <span class="nav-text">Ubuntu18装机的坑</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#终端的字体"><span class="nav-number">6.1.</span> <span class="nav-text">终端的字体</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相比较-Ubuntu-16-04LTS"><span class="nav-number">7.</span> <span class="nav-text">相比较 Ubuntu 16.04LTS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu的问题查询"><span class="nav-number">8.</span> <span class="nav-text">Ubuntu的问题查询</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu-18-下可以使用的-ssr"><span class="nav-number">9.</span> <span class="nav-text">Ubuntu 18 下可以使用的 ssr</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）"><span class="nav-number">10.</span> <span class="nav-text">关于网易云音乐安装之后必须要终端sudo才能打开的问题（巨坑已填！！）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于ibus输入法的问题"><span class="nav-number">11.</span> <span class="nav-text">关于ibus输入法的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Ubuntu18-的搜狗输入法的安装"><span class="nav-number">11.1.</span> <span class="nav-text">Ubuntu18 的搜狗输入法的安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搜狗輸入法的新坑"><span class="nav-number">11.2.</span> <span class="nav-text">搜狗輸入法的新坑</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-15更新"><span class="nav-number">12.</span> <span class="nav-text">10.15更新</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu18-使用体验"><span class="nav-number">1.</span> <span class="nav-text">Ubuntu18 使用体验</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#一些装机软件的安装"><span class="nav-number">2.</span> <span class="nav-text">一些装机软件的安装</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Albert"><span class="nav-number">2.1.</span> <span class="nav-text">Albert</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#主题修改"><span class="nav-number">3.</span> <span class="nav-text">主题修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#gnome-extensions-recommend"><span class="nav-number">4.</span> <span class="nav-text">gnome extensions recommend</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Ubuntu强大就强大在其可自定义的系统插件-这里罗列一下我自己使用的插件"><span class="nav-number">4.1.</span> <span class="nav-text">Ubuntu强大就强大在其可自定义的系统插件,这里罗列一下我自己使用的插件.</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#使用ppa源时可能遇到的问题以及解决方案"><span class="nav-number">5.</span> <span class="nav-text">使用ppa源时可能遇到的问题以及解决方案</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu18装机的坑"><span class="nav-number">6.</span> <span class="nav-text">Ubuntu18装机的坑</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#终端的字体"><span class="nav-number">6.1.</span> <span class="nav-text">终端的字体</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#相比较-Ubuntu-16-04LTS"><span class="nav-number">7.</span> <span class="nav-text">相比较 Ubuntu 16.04LTS</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu的问题查询"><span class="nav-number">8.</span> <span class="nav-text">Ubuntu的问题查询</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Ubuntu-18-下可以使用的-ssr"><span class="nav-number">9.</span> <span class="nav-text">Ubuntu 18 下可以使用的 ssr</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于网易云音乐安装之后必须要终端sudo才能打开的问题"><span class="nav-number">10.</span> <span class="nav-text">关于网易云音乐安装之后必须要终端sudo才能打开的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#2019-3-21更新"><span class="nav-number">10.1.</span> <span class="nav-text">2019.3.21更新</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#然后关于每次正常启动要重新登录的问题"><span class="nav-number">10.1.1.</span> <span class="nav-text">然后关于每次正常启动要重新登录的问题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#关于ibus输入法的问题"><span class="nav-number">11.</span> <span class="nav-text">关于ibus输入法的问题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Ubuntu18-的搜狗输入法的安装"><span class="nav-number">11.1.</span> <span class="nav-text">Ubuntu18 的搜狗输入法的安装</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#搜狗輸入法的新坑"><span class="nav-number">11.2.</span> <span class="nav-text">搜狗輸入法的新坑</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#10-15更新"><span class="nav-number">12.</span> <span class="nav-text">10.15更新</span></a></li></ol></div>
             
 
           </div>
@@ -1003,7 +1042,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">Total Words Of All Blogs: 96.7k words</span>
+  <span class="post-count">Total Words Of All Blogs: 98.9k words</span>
 </div>
 
         
@@ -1058,9 +1097,6 @@
 
 
 
-  
-  
-
 
 
 
@@ -1089,16 +1125,6 @@
   
   
     <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three.min.js"></script>
-  
-
-  
-  
-    <script type="text/javascript" src="/lib/three/three-waves.min.js"></script>
   
 
 
