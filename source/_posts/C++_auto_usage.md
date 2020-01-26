@@ -21,7 +21,6 @@ tags: ๑C++
 - 例如:
 ```
 //遍历vector,使用迭代器(原始版本)
-
 for(std::vector<int>::iterator it = vec.begin(); it != it.end(); it++){
   ...
 }
