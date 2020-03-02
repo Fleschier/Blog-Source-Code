@@ -55,9 +55,7 @@ tags:   [๑FrontEnd, ๑BootStrap]
         <!-- 最新的 Bootstrap4 核心 JavaScript 文件 -->
         <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
     </head>
-
     <body>
-
     </body>
 </html>
 ```

@@ -90,14 +90,14 @@ hexo d
 
 1. 新建tags文件夹，并创建index.md
 2. 在index.md中写入如下内容：
-```
----
+
+> ---
 title: tags
 date: 2016-09-05 23:41:32
 type: "tags"
 comments: false
 ---
-```
+
 3. 到_config.yml文件中将对应的路径添加进去(next主题默认是将这几个页面注释掉的，取消注释即可)
 4. 重新建站即可看到效果
 
