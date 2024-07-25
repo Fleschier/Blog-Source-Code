@@ -4,6 +4,7 @@ title:      "数据库SQL语句"
 date:       2018-04-7 20:55:00
 categories: Computer Programs
 tags: ๑SQL
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

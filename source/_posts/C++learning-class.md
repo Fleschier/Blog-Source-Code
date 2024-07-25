@@ -4,6 +4,7 @@ title:      "C++学习笔记——类"
 date:       2018-04-6 16:47:00
 categories: Computer Programs
 tags: ๑C++
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记  

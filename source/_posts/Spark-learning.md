@@ -4,6 +4,7 @@ title:      "Spark学习笔记——基础"
 date:       2018-04-11 16:47:00
 categories: Computer Programs
 tags: [๑Spark, ๑BigData]
+description: "学习记录"
 ---
 > 不适合人类阅读的学习笔记  
 

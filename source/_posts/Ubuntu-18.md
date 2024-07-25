@@ -4,6 +4,7 @@ title:      "Ubuntu进阶记录 & Ubuntu-18"
 date:       2018-05-10 09:47:00
 categories: Computer System
 tags:  [๑Ubuntu, ๑Linux]
+description: "学习记录"
 ---
 
 ## Ubuntu18 使用体验

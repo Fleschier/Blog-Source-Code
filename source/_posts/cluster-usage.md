@@ -4,6 +4,7 @@ title:      "hadoop集群使用中的一些问题记录"
 date:       2018-07-20 10:40:00
 categories: Hadoop CLuster
 tags:   [๑Hadoop, ๑Linux, ๑CLuster]
+description: "集群使用技巧"
 ---
 
 > 不适合人类阅读的学习笔记

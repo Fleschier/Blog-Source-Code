@@ -4,6 +4,7 @@ title:      "HDFS相关笔记"
 date:       2018-05-30 09:46:00
 categories: Computer System
 tags:   [๑Hadoop, ๑BigData, ๑HDFS, ๑Spark]
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

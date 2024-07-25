@@ -4,6 +4,7 @@ title:      "C++学习笔记——强大的sprintf"
 date:       2018-10-08 22:43:00
 categories: Computer Programs
 tags: ๑C++
+description: "学习记录"
 ---
 
 ## sprintf()函数与printf()函数

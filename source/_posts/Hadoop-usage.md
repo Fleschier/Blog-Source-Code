@@ -4,6 +4,7 @@ title:      "Hadoop单机伪分布式环境搭建"
 date:       2018-05-30 09:46:00
 categories: Hadoop CLuster
 tags:   [๑Hadoop, ๑BigData]
+description: "学习记录"
 ---
 
 ## Hadoop 单机伪分布式环境搭建

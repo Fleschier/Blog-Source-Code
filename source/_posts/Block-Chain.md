@@ -4,6 +4,7 @@ title:      "区块链初涉"
 date:       2018-04-15 17:01:00
 categories: Computer
 tags: ๑BlockChain
+description: "区块链是一种特殊的分布式数据库，任何人都可以架设服务器，加入区块链网络，成为一个节点"
 ---
 > 不适合人类阅读的学习笔记  
 

@@ -4,6 +4,7 @@ title:      "Spark实际操作过程中的一些调优笔记"
 date:       2018-09-13 21:47:00
 categories: Computer Programs
 tags: [๑Spark, ๑BigData]
+description: "学习记录"
 ---
 
 ## Spark调优的一些参数设置

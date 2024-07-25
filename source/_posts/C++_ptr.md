@@ -4,6 +4,7 @@ title:      "C++学习笔记——指针"
 date:       2018-12-19 14:10:00
 categories: Computer Programs
 tags: ๑C++
+description: "学习记录"
 ---
 
 ## 典型错误

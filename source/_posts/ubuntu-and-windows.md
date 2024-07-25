@@ -4,6 +4,7 @@ title:      "UEFI双系统的那些坑"
 date:       2018-04-06 09:40:00
 categories: Computer System
 tags: [๑DualSystem, ๑Ubuntu, ๑Linux]
+description: "问题记录"
 ---
 > 不适合人类阅读的自我备忘笔记  
 

@@ -4,6 +4,7 @@ title:      "Maven构建项目的pom.xml文件详解"
 date:       2018-11-07 20:50:00
 categories: Computer Programs
 tags:   [๑Maven, ๑Apache]
+description: "学习记录"
 ---
 
 ## Maven仓库

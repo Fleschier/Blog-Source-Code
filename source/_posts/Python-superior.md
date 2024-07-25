@@ -4,6 +4,7 @@ title:      "Python学习笔记——进阶"
 date:       2018-04-29 16:47:00
 categories: Computer Programs
 tags: ๑Python
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记  

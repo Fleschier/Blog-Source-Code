@@ -4,6 +4,7 @@ title:      "Scala IO 记录"
 date:       2018-09-06 11:25:00
 categories: Computer Programs
 tags:   ๑Scala
+description: "学习记录"
 ---
 
 ## 控制台IO

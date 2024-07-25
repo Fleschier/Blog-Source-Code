@@ -4,6 +4,7 @@ title:      "Ubuntu18 安装Docker"
 date:       2018-11-8 18:40:00
 categories: Docker
 tags:   [๑Ubuntu, ๑Docker]
+description: "学习记录"
 ---
 
 ## 为什么用Docker

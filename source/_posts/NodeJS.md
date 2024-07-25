@@ -4,6 +4,7 @@ title:      "Node.js学习笔记"
 date:       2018-05-21 10:47:00
 categories: FrontEnd
 tags:   [๑JS, ๑FrontEnd]
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

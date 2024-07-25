@@ -4,6 +4,7 @@ title:      "Windows10使用navicat链接mySQL错误"
 date:       2018-11-9 09:40:00
 categories: Docker
 tags:   [๑Windows, ๑mySQL]
+description: "问题记录"
 ---
 
 ## 错误代码

@@ -4,6 +4,7 @@ title:      "《Scala编程》阅读记录——类进阶"
 date:       2018-07-23 17:40:00
 categories: Computer Programs
 tags:   ๑Scala
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

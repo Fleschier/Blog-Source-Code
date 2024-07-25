@@ -4,6 +4,7 @@ title:      "前端学习——JavaScript"
 date:       2018-07-07 11:26:00
 categories: FrontEnd
 tags:   [๑FrontEnd, ๑JavaScrpt]
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

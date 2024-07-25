@@ -4,6 +4,7 @@ title:      "Ubuntu终端常用命令"
 date:       2018-04-6 16:47:00
 categories: Computer System
 tags: [๑Ubuntu, ๑Linux]
+description: "学习记录"
 ---
 
 > 不适合人类阅读的备忘笔记  

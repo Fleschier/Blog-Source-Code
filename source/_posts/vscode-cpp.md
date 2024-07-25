@@ -4,6 +4,7 @@ title:      "Ubuntu18 VsCode搭建C++编译环境(已测试)"
 date:       2018-11-21 14:43:00
 categories: Computer Programs
 tags: [๑C++, ๑VsCode, ๑Ubuntu]
+description: "学习记录"
 ---
 
 > 坑了一早上,终于摸索出两个编译运行C++的方法,特此记录.

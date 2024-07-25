@@ -4,6 +4,7 @@ title:      "Ubuntu下使用jekyll预览博客"
 date:       2018-07-08 22:40:00
 categories: Personal Blog
 tags:   ๑Blog
+description: "博客搭建"
 ---
 
 

@@ -4,6 +4,7 @@ title:      "JavaScript 入门"
 date:       2019-01-12 17:46:00
 categories: Computer Software
 tags:   [๑FrontEnd, ๑JS]
+description: "学习记录"
 ---
 
 ## 引例

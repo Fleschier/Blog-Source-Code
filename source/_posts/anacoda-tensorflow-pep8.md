@@ -4,6 +4,7 @@ title:      "在VScode使用Anacoda自带的tensorflow插件问题记录"
 date:       2019-04-16 11:05:00
 categories: [Python,Tensorflow]
 tags:   [๑Tensorflow, ๑VScode]
+description: "VScode python默认使用pylint,而pylint识别不了tensorflow框架,在import的时候一直报错"
 ---
 
 ## 前言

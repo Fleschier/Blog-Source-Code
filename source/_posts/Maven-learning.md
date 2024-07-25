@@ -4,6 +4,7 @@ title:      "Maven构建项目的pom.xml主要标签解释"
 date:       2018-11-07 20:46:00
 categories: Computer Programs
 tags:   [๑Maven, ๑Apache]
+description: "学习记录"
 ---
 
 ## Maven pom.xml文件标签详解

@@ -4,6 +4,7 @@ title:      "Intellij IDEA Ultimate版本使用"
 date:       2018-05-25 09:46:00
 categories: Computer Software
 tags:   [๑JetBrains, ๑JS]
+description: "学习记录"
 ---
 
 ## JetBrains Toolbox

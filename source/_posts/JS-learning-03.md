@@ -4,6 +4,7 @@ title:      "JavaScript 对象部分 "
 date:       2019-01-15 11:46:00
 categories: Computer Software
 tags:   [๑FrontEnd, ๑JS]
+description: "学习记录"
 ---
 
 ## window对象

@@ -4,6 +4,7 @@ title:      "VScode python编译错误问题记录"
 date:       2019-03-05 21:43:00
 categories: Computer Programs
 tags: [๑VsCode, ๑Python]
+description: "问题记录"
 ---
 
 ## 问题

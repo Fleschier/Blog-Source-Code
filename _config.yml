@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Fleschier 渐寒๑
-subtitle: Welcome~
-description: 这世上,最可怕的永远不是鬼神, 而是人心.
+title: Fleschier๑
+subtitle:  "-"
+description: "-" 
 keywords:
 author: Fleschier
-language:
+language: en # 设置语言
 timezone:
 
 # URL
@@ -26,7 +26,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render: leancloud_memo.json #add ingnore files
+# skip_render: leancloud_memo.json # add ingnore files
 
 
 
@@ -83,7 +83,7 @@ leancloud_counter_security:
 
 # code highlight, accompany with line 362 in NexT config
 highlight:
-  enable: false
+  enable: true
   line_number: true
   auto_detect: true
   tab_replace: false
@@ -101,12 +101,12 @@ deploy:
   branch: master
 
 
-# SiteMap auto generate
-sitemap:
-    path: sitemap.xml
+# # SiteMap auto generate
+# sitemap:
+#     path: sitemap.xml
 
-baidusitemap:
-    path: baidusitemap.xml
+# baidusitemap:
+#     path: baidusitemap.xml
 
 # local search
 search:
@@ -114,3 +114,9 @@ search:
   field: post
   format: html
   limit: 10000
+
+# include
+include:
+  - .nojekyll
+exclude:
+ignore:

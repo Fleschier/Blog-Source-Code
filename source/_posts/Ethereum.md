@@ -4,6 +4,7 @@ title:      "以太坊(ethereum)开发"
 date:       2018-05-23 05:59:00
 categories: Computer
 tags:   ๑BlockChain
+description: "学习记录"
 ---
 
 > 不适合人类阅读的学习笔记

@@ -4,6 +4,7 @@ title:      "Shadowsocks"
 date:       2018-05-28 15:34:00
 categories: ScientificSurfing
 tags:   [๑ScientificSurfing, ๑Ubuntu, ๑Linux]
+description: "翻墙记录"
 ---
 > 科学上网从我做起  
 

@@ -4,6 +4,7 @@ title:      "Scala方法查询记录"
 date:       2018-07-12 16:40:00
 categories: Computer Programs
 tags:   ๑Scala
+description: "学习记录"
 ---
 
 > 仅供查询，禁止转载

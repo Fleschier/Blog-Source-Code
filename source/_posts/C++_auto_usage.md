@@ -4,6 +4,7 @@ title:      "C++ auto关键字使用"
 date:       2019-03-06 14:40:00
 categories: Computer Programs
 tags: ๑C++
+description: "学习记录"
 ---
 
 ## 简述

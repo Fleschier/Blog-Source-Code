@@ -4,6 +4,7 @@ title:      "区块链一些相关概念的记录"
 date:       2018-05-17 10:47:00
 categories: Computer
 tags:   ๑BlockChain
+description: "概念记录"
 ---
 
 > 不适合人类阅读的学习笔记

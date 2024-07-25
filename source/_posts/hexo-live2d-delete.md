@@ -4,6 +4,7 @@ title:      "Hexo插件live2d删除以及遇到的一些问题"
 date:       2019-02-17 20:47:00
 categories: Personal Blog
 tags: ๑Blog
+description: "问题记录"
 ---
 
 ## 删除live2d插件

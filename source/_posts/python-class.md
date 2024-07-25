@@ -4,6 +4,7 @@ title:      "Python 面向对象编程"
 date:       2018-11-25 12:47:00
 categories: Computer Programs
 tags: ๑Python
+description: "学习记录"
 ---
 
 ## 模块与包

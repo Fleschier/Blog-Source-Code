@@ -4,6 +4,7 @@ title:      "JavaScript 基础 "
 date:       2019-01-13 16:46:00
 categories: Computer Software
 tags:   [๑FrontEnd, ๑JS]
+description: "学习记录"
 ---
 
 ## 浏览器窗口中的DOM

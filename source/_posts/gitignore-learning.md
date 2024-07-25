@@ -4,6 +4,7 @@ title:      "gitignore的使用及写法"
 date:       2018-10-27 18:32:00
 categories: Computer
 tags: [๑Git, ๑Ubuntu, ๑Linux]
+description: "学习记录"
 ---
 
 ## gitignore的作用

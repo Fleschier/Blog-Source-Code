@@ -4,6 +4,7 @@ title:      "Windows10蓝屏巨坑--已填"
 date:       2018-11-14 17:40:00
 categories: Computer System
 tags:   ๑Windows
+description: "问题记录"
 ---
 
 ## win10蓝屏问题

@@ -4,6 +4,7 @@ title:      "git 与 github 随笔"
 date:       2018-04-11 22:04:00
 categories: Computer
 tags: [๑Git, ๑Ubuntu, ๑Linux]
+description: "git使用记录"
 ---
 > 不适合人类阅读的随笔~
 

@@ -4,6 +4,7 @@ title:      "Docker使用"
 date:       2018-11-8 20:40:00
 categories: Docker
 tags:   [๑Ubuntu, ๑Docker]
+description: "学习记录"
 ---
 
 > 需要的docker image可以从Docker Hub获取
