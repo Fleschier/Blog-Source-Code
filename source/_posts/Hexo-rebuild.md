@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "hexo重新构建博客"
-date:       2018-09-03 17:25:00
+date:       2024-07-26 09:25:00
 categories: Personal Blog
 tags:  ๑Blog
 description: "博客引擎升级"
@@ -91,16 +91,15 @@ hexo d
 
 1. 新建tags文件夹，并创建index.md
 2. 在index.md中写入如下内容：
-
-> ---
+```
 title: tags
 date: 2016-09-05 23:41:32
 type: "tags"
 comments: false
----
+```
 
-3. 到_config.yml文件中将对应的路径添加进去(next主题默认是将这几个页面注释掉的，取消注释即可)
-4. 重新建站即可看到效果
+1. 到_config.yml文件中将对应的路径添加进去(next主题默认是将这几个页面注释掉的，取消注释即可)
+2. 重新建站即可看到效果
 
 ## 添加搜索引擎支持
 ---
@@ -217,3 +216,32 @@ Sitemap: https://Fleschier.github.io/baidusitemap.xml
 - ![](/images/hexo_blog/res1.png)
 
 - 但是好像还是不能同步到github...待更新
+
+---
+
+## 2024更新
+
+> 时隔多年又重拾起来了技术博客的更新，就先从建站开始，更新一下流程和问题
+
+### 网站搜索功能添加
+
+- 需要安装`hexo-generator-searchdb`插件。
+  
+- 运行`npm install hexo-generator-searchdb --save`命令。
+
+- 编辑博客根目录下的博客本地目录/_config.yml站点配置文件，新增以下内容到任意位置:
+```
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 100000	# 注意如果文章字数较多的话这里的值要增加大一些，不然可能出现部署之后搜索样式错误的情况
+```
+
+- 编辑博客本地目录`/themes/hexo-theme-next/_config.yml`主题配置文件，启用本地搜索功能,将local_search:下面的`enable:`的值，改成`true`。
+
+- 最后更新生成部署博客即可。
+
+### 文章tag用图标代替#号
+
+- 在主题配置文件搜索`tag_icon`，改为true即可。
